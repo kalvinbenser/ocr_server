@@ -22,5 +22,4 @@ tabula-py==2.7.0
 tzdata==2023.3
 urllib3==2.0.3
 xlrd==2.0.1
-pysqlite3
-pysqlite3-binary
+mysqlclient
