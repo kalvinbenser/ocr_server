@@ -34,7 +34,8 @@ class Ocr(generics.GenericAPIView):
             file_array.append(file_name)
         print("file_array\n",file_array)    
         return json.dumps(file_array)
-       except:
+       except Exception as e:
+        print('file error\n',e)
         return False
 
 
